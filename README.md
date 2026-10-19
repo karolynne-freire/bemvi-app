@@ -1,103 +1,149 @@
-🌿 Bemvi Mobile
+# 🌿Bemvi APP
 
-No Bemvi, você não fala sozinha.
+> **No Bemvi, você não fala sozinha.**
 
-O Bemvi Mobile é a proposta de aplicativo para dispositivos móveis do ecossistema Bemvi. Desenvolvido com React Native, busca aproximar mães atípicas por meio de uma experiência digital acolhedora, acessível e prática, permitindo o acesso às redes de apoio, às indicações de profissionais e às informações sobre espaços inclusivos.
+O **Bemvi APP** é a versão para dispositivos móveis do ecossistema Bemvi, uma plataforma digital de acolhimento, orientação e conexão voltada para mães atípicas.
 
-O aplicativo compartilha os princípios, a identidade visual e os objetivos da versão web, adaptando a experiência para smartphones.
+Desenvolvido com **React Native**, o aplicativo busca proporcionar uma experiência digital acolhedora, acessível e intuitiva, facilitando o acesso a redes de apoio, indicações de profissionais especializados e informações sobre espaços inclusivos.
 
-🎯 Objetivo
+O projeto compartilha os princípios, a identidade visual e os objetivos da versão web, adaptando a experiência para smartphones.
+
+## 🌱 Sobre o Bemvi
+
+O Bemvi acredita que a tecnologia pode ajudar a construir redes de apoio mais fortes e acessíveis, oferecendo às mães atípicas um espaço para compartilhar experiências, encontrar informações e criar conexões significativas.
+
+Mais do que conectar pessoas, o Bemvi busca fortalecer o sentimento de pertencimento e mostrar que nenhuma mãe precisa enfrentar sua jornada sozinha.
+
+## 🎯 Objetivo
 
 Oferecer às mães atípicas uma experiência mobile simples e intuitiva, facilitando o acesso às funcionalidades de apoio e conexão durante a rotina.
 
-✨ Funcionalidades previstas
-Rede de apoio: acesso a salas temáticas e espaços de interação.
-Profissionais Bemvi: consulta e cadastro colaborativo de indicações.
-Mapa de Inclusão: localização de estabelecimentos e espaços acessíveis.
-Perfil da usuária: gerenciamento da conta e das preferências.
-Acessibilidade: personalização da leitura e da experiência de navegação.
-Privacidade: controles para tornar as interações mais seguras e acolhedoras.
+O Bemvi busca reduzir o isolamento social, fortalecer redes de apoio e promover um ambiente digital baseado na empatia, na acessibilidade e na colaboração.
 
-As funcionalidades serão implementadas progressivamente, conforme o planejamento e a evolução do aplicativo.
+## ✨ Funcionalidades
 
-🛠️ Tecnologias
-React Native — desenvolvimento de interfaces mobile.
-JavaScript — linguagem de programação.
-Expo, caso adotado — ferramentas para desenvolvimento e execução do aplicativo.
-Git e GitHub — versionamento e colaboração.
+- **Rede de apoio:** acesso a salas temáticas e espaços de interação entre mães atípicas.
+- **Profissionais Bemvi:** consulta e cadastro colaborativo de indicações de profissionais da saúde e da educação.
+- **Mapa de Inclusão:** localização de estabelecimentos e espaços acessíveis.
+- **Perfil da usuária:** gerenciamento da conta e das preferências pessoais.
+- **Acessibilidade:** recursos para personalizar a leitura e facilitar a navegação.
+- **Privacidade:** recursos planejados para tornar as interações mais seguras e acolhedoras.
 
-A arquitetura poderá incorporar outras tecnologias conforme as necessidades do projeto.
+> As funcionalidades serão implementadas progressivamente, conforme o planejamento e a evolução do aplicativo.
 
-🎨 Identidade visual
+## 🛠️ Tecnologias utilizadas
 
-O aplicativo utiliza a identidade visual do Bemvi, adaptada às telas de dispositivos móveis.
+- [**React Native**](<https://reactnative.dev/>)**:** desenvolvimento de interfaces para dispositivos móveis.
+- [**JavaScript**](<https://developer.mozilla.org/pt-BR/docs/Web/JavaScript>)**:** linguagem de programação.
+- [**Expo**](<https://expo.dev/>)**:** ferramentas para desenvolvimento e execução do aplicativo, caso adotado no projeto.
+- [**Node.js**](<https://nodejs.org/>)**:** ambiente de execução necessário para as ferramentas de desenvolvimento.
+- [**Git**](<https://git-scm.com/>)**:** sistema de controle de versão.
+- [**GitHub**](<https://github.com/>)**:** hospedagem do repositório e colaboração.
 
-Elemento	Cor
-Fundo principal	Creme #F8F4EC
-Botões e navegação	Azul suave #7EA8BE
-Cards e indicadores	Verde sálvia #A8C3A0
-Destaques e ações prioritárias	Terracota #D89B7A
-Textos	Grafite #4F4F4F
+## 🎨 Identidade visual
+
+A identidade visual do Bemvi foi desenvolvida para transmitir acolhimento, tranquilidade, confiança e conexão humana.
+
+A interface utiliza uma paleta de cores suaves, priorizando o conforto visual, a legibilidade e a consistência entre as versões web e mobile.
+
+| Elemento | Cor | Código |
+| --- | --- | --- |
+| Fundo principal | Creme | `#F8F4EC` |
+| Botões e navegação | Azul suave | `#7EA8BE` |
+| Cards e indicadores | Verde sálvia | `#A8C3A0` |
+| Destaques e ações prioritárias | Terracota suave | `#D89B7A` |
+| Textos | Grafite | `#4F4F4F` |
 
 A interface prioriza componentes intuitivos, áreas de toque confortáveis, textos legíveis e navegação simplificada.
 
-📋 Pré-requisitos
+## 📋 Pré-requisitos
 
-Para executar o projeto, você precisará de:
+Antes de executar o projeto, certifique-se de ter instalado:
 
-Node.js em versão compatível com as dependências.
-npm.
-Git.
-Um emulador Android ou dispositivo físico para testes.
-Xcode, caso desenvolva ou execute a aplicação nativamente no iOS usando macOS.
+- [Node.js](<https://nodejs.org/>), em uma versão compatível com as dependências.
+- npm, incluído na instalação do Node.js.
+- [Git](<https://git-scm.com/>).
+- Um emulador Android ou dispositivo físico para testes.
+- Xcode, caso utilize ferramentas de compilação e execução nativa para iOS, em um computador macOS.
 
-Se o projeto utilizar Expo, também será possível testar a aplicação em um dispositivo compatível com as ferramentas disponibilizadas pelo Expo.
+Caso o projeto utilize Expo, consulte também a [documentação oficial do Expo](<https://docs.expo.dev/>).
 
-🚀 Como executar
-1. Clone o repositório
-git clone [URL_DO_REPOSITORIO](https://github.com/karolynne-freire/bemvi-app.git)
+## 🚀 Como executar o projeto
 
-2. Acesse a pasta do projeto
+### 1\. Clone o repositório
+
+```
+git clone https://github.com/karolynne-freire/bemvi-app.git
+```
+
+### 2\. Acesse a pasta do projeto
+
+```
 cd bemvi-app
+```
 
-3. Instale as dependências
+### 3\. Instale as dependências
+
+```
 npm install
+```
 
-4. Inicie a aplicação
+### 4\. Inicie a aplicação
 
-Se o projeto utilizar Expo:s
+Se o projeto estiver configurado com Expo, execute:
 
+```
 npx expo start
+```
 
+Após iniciar o servidor, siga as instruções exibidas no terminal para executar o aplicativo em um dispositivo físico ou em um emulador compatível.
 
-Depois, siga as instruções apresentadas no terminal para abrir o aplicativo em um dispositivo físico ou emulador compatível.
+> **Observação:** os comandos de execução dependem da configuração do projeto. Caso seja utilizado React Native Community CLI, em vez de Expo, será necessário seguir as instruções específicas dessa configuração.
 
-Os comandos devem ser ajustados de acordo com a configuração adotada no projeto, especialmente se ele utilizar React Native Community CLI em vez de Expo.
-♿ Acessibilidade
+## ♿ Acessibilidade
 
-A experiência mobile considera recursos de acessibilidade, como:
+A acessibilidade é um dos princípios do Bemvi. O projeto considera práticas para tornar a experiência mais inclusiva, como:
 
-Textos legíveis e possibilidade de ajuste de tamanho.
-Contraste adequado.
-Elementos acessíveis por tecnologias assistivas.
-Compatibilidade com leitores de tela, como TalkBack e VoiceOver.
-Áreas de toque adequadas.
-Navegação consistente e redução da sobrecarga cognitiva.
+- Textos legíveis e possibilidade de ajuste de tamanho.
+- Contraste adequado entre textos e fundos.
+- Compatibilidade com leitores de tela, como TalkBack e VoiceOver.
+- Áreas de toque adequadas para dispositivos móveis.
+- Navegação intuitiva e consistente.
+- Redução da sobrecarga cognitiva.
+- Consideração das diretrizes de acessibilidade WCAG.
 
-A conformidade deverá ser verificada durante o desenvolvimento e os testes.
+A implementação e a conformidade desses recursos deverão ser verificadas durante o desenvolvimento e os testes.
 
-🔒 Privacidade
+## 🔒 Privacidade e segurança
 
-A aplicação deverá adotar boas práticas para proteger as informações pessoais das usuárias, especialmente em funcionalidades que envolvam conversas, perfis e dados relacionados à família.
+O Bemvi considera a privacidade um aspecto essencial para a construção de um ambiente digital seguro e acolhedor.
 
-Os recursos de privacidade e anonimato dependerão de implementação técnica adequada, incluindo controles de acesso e proteção dos dados, em conformidade com a legislação aplicável.
+O desenvolvimento deverá considerar:
 
-🚧 Status
+- Proteção de dados pessoais.
+- Controle de acesso às informações da usuária.
+- Cuidados com informações compartilhadas nas interações.
+- Recursos de anonimato, quando implementados.
+- Transparência sobre a coleta e o uso de dados.
+- Observância à Lei Geral de Proteção de Dados Pessoais (LGPD), quando aplicável.
 
-Projeto em desenvolvimento. As funcionalidades e as instruções serão atualizadas conforme a evolução da aplicação mobile.
+Os recursos de privacidade dependerão de implementação técnica adequada e de testes específicos.
 
-🌱 Sobre o Bemvi
+## 🧭 Experiência do usuário
 
-O Bemvi acredita que a tecnologia pode ajudar a construir redes de apoio mais fortes e acessíveis. A versão mobile amplia essa proposta, levando acolhimento, conexão e informação para mais perto das usuárias.
+A interface do Bemvi é orientada pelos princípios de Design Centrado no Usuário (DCU) e Interação Humano-Computador (IHC).
 
-Bemvi — No Bemvi, você não fala sozinha.
+A navegação busca ser simples, previsível e acessível, permitindo que as usuárias encontrem as principais funcionalidades com facilidade.
+
+As decisões de design consideram as necessidades identificadas na pesquisa com mães atípicas, priorizando acolhimento emocional, clareza das informações e redução do esforço durante a utilização do aplicativo.
+
+## 🚧 Status do projeto
+
+**Em desenvolvimento.**
+
+## 📄 Licença
+
+Este projeto está sendo desenvolvido como parte das atividades acadêmicas da disciplina de Projeto de Pesquisa I (PP1).
+
+O Bemvi tem finalidade acadêmica e educacional, sendo concebido para aplicar os conhecimentos de desenvolvimento de software, Interação Humano-Computador (IHC), acessibilidade e Design Centrado no Usuário.
+
